@@ -10,6 +10,5 @@ Download all the files and keep them in the same directory. Run main.py, and pas
 
 
 <p align="center">
-  <img src="/images/irate.png" />
-  <img src="/images/result.png" />
+  <img src="/images/markdown.png" />
 </p>
