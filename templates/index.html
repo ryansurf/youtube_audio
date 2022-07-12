@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>YouTube Audio Downloader</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+
+<body>
+    <h1>YouTube Audio Downloader!</h1>
+    <h2>Paste a YouTube Video's link in the provided form, and either a audio(.mp3) or video(.mp4) file will be downloaded on your
+        machine.
+    </h2>
+        <form action = "{{ url_for('download_audio') }}" method="post">
+    <!--<form action = "{{ url_for('index') }}" method="post">-->
+        <label for="link">YouTube Link For Audio</label><br>
+        <input type="text" id="linkAudio" name="linkAudio" placeholder="Paste Youtube Video's Link"><br>
+        <button type="submit" id = "audioBut">Download</button>
+        {% if download  %}
+        <h2 id = "download">Download Complete!</h2>
+    
+        {% endif %}
+    </form> 
+
+    <form action = "{{ url_for('download_video') }}" method="post">
+        <!--<form action = "{{ url_for('index') }}" method="post">-->
+            <label for="link">YouTube Link For Video</label><br>
+            <input type="text" id="linkAudio" name="linkVideo" placeholder="Paste Youtube Video's Link"><br>
+            <button type="submit" id = "videoBut">Download</button>
+            {% if download  %}
+            <h2 id = "download">Download Complete!</h2>
+        
+            {% endif %}
+        </form> 
+        
+
+
+
+
+
+</body>
+
+
+
+</html>

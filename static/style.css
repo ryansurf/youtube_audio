@@ -1,0 +1,70 @@
+
+body{
+    background-image: url('images/youtube.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#link{
+    width: 40%
+}
+
+label{
+    font-size: 1.5vw;
+    bottom: 8%;
+    color: blue;
+    position: absolute;
+    padding: 10px;
+    
+}
+
+form{
+    padding-top: 17%;
+    margin: auto;
+    width: 80%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+}
+
+button{
+    position: absolute;
+    top: 100%;
+}
+
+button:hover{
+    background-color: blue;
+    color: red;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+#download{
+    color: blue;
+    position: absolute;
+    top: 110%;
+    font-size: 40px;
+}
+
+form{
+    padding-top: 10%;
+}
+
+#linkAudio{
+    width: 40%;
+}
